@@ -5,6 +5,7 @@ import palin, { palin2 } from './1palindrom';
 import noOfDigits from './2noofDigits';
 import reverse1 from './3reverse';
 import fact, { fact1 } from './4factorial';
+import trailingZerosFactorial from './5trailingZerosFactorial';
 
 palin(123);
 
@@ -19,6 +20,8 @@ reverse1(123);
 
 fact(5);
 console.log('fact1 - 5', fact1(5));
+
+console.log(trailingZerosFactorial(261));
 
 // // Write Javascript code!
 // const appDiv = document.getElementById('app');
