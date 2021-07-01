@@ -38,6 +38,9 @@ isSorted([1, 2, 3, 4, 5]);
 isSorted([1, 2, 3, 4, 5, 1]);
 isSorted([1, 2, 2, 3, 4, 5, 5]);
 
+reverse([1, 2, 2, 3, 4, 5, 5]);
+reverse([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
+
 // // Write Javascript code!
 // const appDiv = document.getElementById('app');
 // appDiv.innerHTML = `<h1>JS Starter</h1>`;
