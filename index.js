@@ -13,37 +13,41 @@ import secondLargest from './8GetSecondlargestnumberfromArray';
 import isSorted from './9CheckifArrayisSortedOrNot';
 import reverse from './10.reverseOfAnArray';
 import removeDuplicates from './11.removeDuplicatesFromArray';
+import moveZerosToEnd from './12.moveZerosToEndInArray';
 
-palin(123);
+// palin(123);
 
-palin2(12345);
-palin(123321);
+// palin2(12345);
+// palin(123321);
 
-palin2(123321);
+// palin2(123321);
 
-noOfDigits(12345);
+// noOfDigits(12345);
 
-reverse1(123);
+// reverse1(123);
 
-fact(5);
-console.log('fact1 - 5', fact1(5));
+// fact(5);
+// console.log('fact1 - 5', fact1(5));
 
-console.log(trailingZerosFactorial(261));
+// console.log(trailingZerosFactorial(261));
 
-TOH(3, 'A', 'B', 'C');
+// TOH(3, 'A', 'B', 'C');
 
-largest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
-secondLargest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
+// largest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
+// secondLargest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
 
-isSorted([1, 2, 3, 4, 5]);
-isSorted([1, 2, 3, 4, 5, 1]);
-isSorted([1, 2, 2, 3, 4, 5, 5]);
+// isSorted([1, 2, 3, 4, 5]);
+// isSorted([1, 2, 3, 4, 5, 1]);
+// isSorted([1, 2, 2, 3, 4, 5, 5]);
 
-reverse([1, 2, 2, 3, 4, 5, 5]);
-reverse([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
+// reverse([1, 2, 2, 3, 4, 5, 5]);
+// reverse([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
 
-removeDuplicates([1, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5]);
+// removeDuplicates([1, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5]);
 
-// // Write Javascript code!
-// const appDiv = document.getElementById('app');
-// appDiv.innerHTML = `<h1>JS Starter</h1>`;
+moveZerosToEnd([0,1,2,0,5,0,8,0]);
+
+
+// Write Javascript code!
+const appDiv = document.getElementById('app');
+appDiv.innerHTML = `<h1>JS Starter</h1>`;
