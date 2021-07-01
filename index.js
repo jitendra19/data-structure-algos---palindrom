@@ -12,6 +12,7 @@ import largest from './7GetlargestnumberfromArray';
 import secondLargest from './8GetSecondlargestnumberfromArray';
 import isSorted from './9CheckifArrayisSortedOrNot';
 import reverse from './10.reverseOfAnArray';
+import removeDuplicates from './11.removeDuplicatesFromArray';
 
 palin(123);
 
@@ -40,6 +41,8 @@ isSorted([1, 2, 2, 3, 4, 5, 5]);
 
 reverse([1, 2, 2, 3, 4, 5, 5]);
 reverse([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
+
+removeDuplicates([1, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5]);
 
 // // Write Javascript code!
 // const appDiv = document.getElementById('app');
