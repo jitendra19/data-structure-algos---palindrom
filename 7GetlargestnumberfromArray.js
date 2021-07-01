@@ -3,8 +3,8 @@ export default function largest(input) {
     console.log('No element in Array');
     return 'No element in Array';
   }
-  let largestNumber = 0;
-  for (let i = 0; i < input.length; i++) {
+  let largestNumber = input[0];
+  for (let i = 1; i < input.length; i++) {
     if (largestNumber < input[i]) {
       largestNumber = input[i];
     }

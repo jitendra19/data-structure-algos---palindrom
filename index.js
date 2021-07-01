@@ -9,6 +9,7 @@ import trailingZerosFactorial from './5trailingZerosFactorial';
 import TOH from './6TOH';
 
 import largest from './7GetlargestnumberfromArray';
+import secondLargest from './8GetSecondlargestnumberfromArray';
 
 palin(123);
 
@@ -29,6 +30,7 @@ console.log(trailingZerosFactorial(261));
 TOH(3, 'A', 'B', 'C');
 
 largest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
+secondLargest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
 
 // // Write Javascript code!
 // const appDiv = document.getElementById('app');
