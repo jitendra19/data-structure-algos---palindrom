@@ -10,6 +10,8 @@ import TOH from './6TOH';
 
 import largest from './7GetlargestnumberfromArray';
 import secondLargest from './8GetSecondlargestnumberfromArray';
+import isSorted from './9CheckifArrayisSortedOrNot';
+import reverse from './10.reverseOfAnArray';
 
 palin(123);
 
@@ -31,6 +33,10 @@ TOH(3, 'A', 'B', 'C');
 
 largest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
 secondLargest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
+
+isSorted([1, 2, 3, 4, 5]);
+isSorted([1, 2, 3, 4, 5, 1]);
+isSorted([1, 2, 2, 3, 4, 5, 5]);
 
 // // Write Javascript code!
 // const appDiv = document.getElementById('app');
