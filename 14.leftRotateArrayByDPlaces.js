@@ -8,7 +8,7 @@ export default function leftRotateArrayByD(input, dPlaces) {
   for (let i = dPlaces; i < input.length; i++) {
     input[i - dPlaces] = input[i];
   }
-  input = input.concate(a);
+  input = input.concat(a);
   // input.push(input.shift());
   console.log('abc');
 

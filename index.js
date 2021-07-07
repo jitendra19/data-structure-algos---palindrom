@@ -15,7 +15,7 @@ import reverse from './10.reverseOfAnArray';
 import removeDuplicates from './11.removeDuplicatesFromArray';
 import moveZerosToEnd from './12.moveZerosToEndInArray';
 import leftRotateArrayByOne from './13.leftRotateArrayByOne';
-import leftRotateArrayByD from '14.LeftRotateArrayByDPlaces';
+import leftRotateArrayByD from './14.leftRotateArrayByDPlaces';
 
 // palin(123);
 
@@ -51,7 +51,7 @@ import leftRotateArrayByD from '14.LeftRotateArrayByDPlaces';
 
 // leftRotateArrayByOne([12, 0, 1, 2, 0, 5, 0, 8, 0]);
 
-leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 4);
+leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 3);
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
