@@ -14,6 +14,7 @@ import isSorted from './9CheckifArrayisSortedOrNot';
 import reverse from './10.reverseOfAnArray';
 import removeDuplicates from './11.removeDuplicatesFromArray';
 import moveZerosToEnd from './12.moveZerosToEndInArray';
+import leftRotateArrayByOne from './13.leftRotateArrayByOne';
 
 // palin(123);
 
@@ -43,10 +44,11 @@ import moveZerosToEnd from './12.moveZerosToEndInArray';
 // reverse([1, 2, 2, 3, 4, 5, 5]);
 // reverse([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
 
-// removeDuplicates([1, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5]);
+removeDuplicates([1, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5]);
 
-moveZerosToEnd([0,1,2,0,5,0,8,0]);
+moveZerosToEnd([0, 1, 2, 0, 5, 0, 8, 0]);
 
+leftRotateArrayByOne([12, 0, 1, 2, 0, 5, 0, 8, 0]);
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
