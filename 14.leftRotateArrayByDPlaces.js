@@ -1,5 +1,17 @@
 import leftRotateArrayByOne from './13.leftRotateArrayByOne';
 
+function reverse(input, low, high) {
+  // let low = 0, high = input.length-1;
+  while (low < high) {
+    const a = input[high];
+    input[high] = input[low];
+    input[low] = a;
+    low++;
+    high--;
+  }
+  return input;
+}
+
 export default function leftRotateArrayByD(input, dPlaces) {
   if (input && Array.isArray(input) && input.length === 0) {
     console.log('No element in Array');
@@ -14,9 +26,15 @@ export default function leftRotateArrayByD(input, dPlaces) {
   // console.log(input);
 
   // Method-2
-  while(dPlaces > 0) {
-    leftRotateArrayByOne(input);
-    dPlaces--;
-  }
-  
+  // while (dPlaces > 0) {
+  //   leftRotateArrayByOne(input);
+  //   dPlaces--;
+  // }
+  // console.log('final output - ', input);
+
+  // Method 3
+  reverse(input, 0, dPlaces - 1);
+  reverse(input, dPlaces + 1, input.length - 1);
+  reverse(input, 0, input.length - 1);
+  console.log('final output -', input);
 }
