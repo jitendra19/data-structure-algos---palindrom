@@ -1,16 +1,22 @@
+import leftRotateArrayByOne from './13.leftRotateArrayByOne';
+
 export default function leftRotateArrayByD(input, dPlaces) {
   if (input && Array.isArray(input) && input.length === 0) {
     console.log('No element in Array');
     return 'No element in Array';
   }
-  const a = input.slice(0, dPlaces); // size of dPlaces
+  // Method-1
+  // const a = input.slice(0, dPlaces); // size of dPlaces
+  // for (let i = dPlaces; i < input.length; i++) {
+  //   input[i - dPlaces] = input[i];
+  // }
+  // input = input.concat(a);
+  // console.log(input);
 
-  for (let i = dPlaces; i < input.length; i++) {
-    input[i - dPlaces] = input[i];
+  // Method-2
+  while(dPlaces > 0) {
+    leftRotateArrayByOne(input);
+    dPlaces--;
   }
-  input = input.concat(a);
-  // input.push(input.shift());
-  console.log('abc');
-
-  console.log(input);
+  
 }
