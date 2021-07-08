@@ -19,6 +19,8 @@ import leftRotateArrayByD from './14.leftRotateArrayByDPlaces';
 
 import flattenArray from './15.flattenArray';
 
+import powerSet from './16.powerSetOfString';
+
 // palin(123);
 
 // palin2(12345);
@@ -55,8 +57,10 @@ import flattenArray from './15.flattenArray';
 
 // leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 3);
 
-console.log(flattenArray([1, 2, 3, [4, [6, 7, [5, [8, 9]]]]]));
-console.log(flattenArray([1, 2, 3, [4], 6, 7, 8]));
+// console.log(flattenArray([1, 2, 3, [4, [6, 7, [5, [8, 9]]]]]));
+// console.log(flattenArray([1, 2, 3, [4], 6, 7, 8]));
+
+console.log(powerSet('abc'));
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
