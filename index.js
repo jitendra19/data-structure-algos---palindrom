@@ -21,6 +21,8 @@ import flattenArray from './15.flattenArray';
 
 import powerSet from './16.powerSetOfString';
 
+import groupingSimilarWords from './17.groupingSimilarWords';
+
 // palin(123);
 
 // palin2(12345);
@@ -61,6 +63,8 @@ import powerSet from './16.powerSetOfString';
 // console.log(flattenArray([1, 2, 3, [4], 6, 7, 8]));
 
 console.log(powerSet('abc'));
+
+groupingSimilarWords();
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
