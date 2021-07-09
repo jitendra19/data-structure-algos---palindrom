@@ -62,7 +62,7 @@ import groupingSimilarWords from './17.groupingSimilarWords';
 // console.log(flattenArray([1, 2, 3, [4, [6, 7, [5, [8, 9]]]]]));
 // console.log(flattenArray([1, 2, 3, [4], 6, 7, 8]));
 
-console.log(powerSet('abc'));
+// console.log(powerSet('abc'));
 
 groupingSimilarWords();
 
