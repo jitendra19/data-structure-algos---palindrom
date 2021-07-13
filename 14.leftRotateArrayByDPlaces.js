@@ -9,6 +9,7 @@ function reverse(input, low, high) {
     low++;
     high--;
   }
+  console.log(input);
   return input;
 }
 
@@ -34,7 +35,7 @@ export default function leftRotateArrayByD(input, dPlaces) {
 
   // Method 3
   reverse(input, 0, dPlaces - 1);
-  reverse(input, dPlaces + 1, input.length - 1);
+  reverse(input, dPlaces, input.length - 1);
   reverse(input, 0, input.length - 1);
   console.log('final output -', input);
 }

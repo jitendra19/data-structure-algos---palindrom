@@ -57,7 +57,7 @@ import groupingSimilarWords from './17.groupingSimilarWords';
 
 // leftRotateArrayByOne([12, 0, 1, 2, 0, 5, 0, 8, 0]);
 
-// leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 3);
+leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 3);
 
 // console.log(flattenArray([1, 2, 3, [4, [6, 7, [5, [8, 9]]]]]));
 // console.log(flattenArray([1, 2, 3, [4], 6, 7, 8]));
