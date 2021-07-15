@@ -23,6 +23,8 @@ import powerSet from './16.powerSetOfString';
 
 import groupingSimilarWords from './17.groupingSimilarWords';
 
+import runBeautification from './18.beautifyObject';
+
 // palin(123);
 
 // palin2(12345);
@@ -65,6 +67,8 @@ leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 3);
 // console.log(powerSet('abc'));
 
 groupingSimilarWords();
+
+runBeautification();
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');

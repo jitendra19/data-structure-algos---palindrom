@@ -1,3 +1,13 @@
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
+}
+
+h6 {
+  /* white-space: pre; */
+  /* white-space: pre-line; */
+  white-space: pre-wrap;
+}
+tab {
+  tab-size: 3;
 }
