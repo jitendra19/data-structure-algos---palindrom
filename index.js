@@ -57,7 +57,7 @@ import frequencyinSortedArray from './23.arrayProblems';
 runBeautification();
 // maximizeprofiteOfStocks([1, 5, 3, 8, 12]);
 // leadersInArray([9, 5, 3, 8, 4]);
-frequencyinSortedArray([1, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5]);
+frequencyinSortedArray([1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5]);
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
