@@ -5,5 +5,5 @@ export default function maximizeprofiteOfStocks(input) {
       profit += input[i] - input[i - 1];
     }
   }
-  console.log(profit);
+  console.log('maximumProfit : ', profit);
 }

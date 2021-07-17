@@ -24,7 +24,7 @@ import powerSet from './16.powerSetOfString';
 import groupingSimilarWords from './17.groupingSimilarWords';
 
 import runBeautification from './18.beautifyObject';
-import maximizeprofiteOfStocks from '21.maximizeprofiteOfStocks';
+import maximizeprofiteOfStocks from './21.maximizeprofiteOfStocks';
 
 // palin(123);
 
