@@ -14,3 +14,16 @@ export default function frequencyinSortedArray(input) {
     console.log(i, ' : ', dict[i]);
   }
 }
+
+export function maximumDifference(input) {
+  let ret = input[1] - input[0];
+  let minValue = input[0];
+  for (let j = 1; j < input.length; j++) {
+    // ret = max(ret , input[j] - minValue );
+    ret = ret > input[j] - minValue ? ret : input[j] - minValue;
+    // minValue = min(minValue, arr[j])
+    minValue = minValue < input[j] ? minValue : input[j];
+  }
+  console.log('maximum difference',ret);
+  // return ret;
+}

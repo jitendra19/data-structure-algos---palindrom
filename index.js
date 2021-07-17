@@ -26,7 +26,7 @@ import groupingSimilarWords from './17.groupingSimilarWords';
 import runBeautification from './18.beautifyObject';
 import maximizeprofiteOfStocks from './21.maximizeprofiteOfStocks';
 import leadersInArray from './22.leadersInArray';
-import frequencyinSortedArray from './23.arrayProblems';
+import frequencyinSortedArray, { maximumDifference } from './23.arrayProblems';
 
 // palin(123);
 // palin2(12345);
@@ -57,7 +57,8 @@ import frequencyinSortedArray from './23.arrayProblems';
 runBeautification();
 // maximizeprofiteOfStocks([1, 5, 3, 8, 12]);
 // leadersInArray([9, 5, 3, 8, 4]);
-frequencyinSortedArray([1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5]);
+// frequencyinSortedArray([1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5]);
+maximumDifference([2, 3, 10, 6, 4, 8, 1]);
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
