@@ -14,7 +14,7 @@ export default function frequencyinSortedArray(input) {
     console.log(i, ' : ', dict[i]);
   }
 }
-
+// 24
 export function maximumDifference(input) {
   let ret = input[1] - input[0];
   let minValue = input[0];
@@ -24,6 +24,27 @@ export function maximumDifference(input) {
     // minValue = min(minValue, arr[j])
     minValue = minValue < input[j] ? minValue : input[j];
   }
-  console.log('maximum difference',ret);
+  console.log('maximum difference', ret);
   // return ret;
+}
+// 25
+export function trappingRainWater(input) {
+  input = [2,0,3,1,5,0,3,0,4,0,3];
+  const size = input.length;
+  // let leftMax = input[1],
+    // right = size-1,
+  let water = 0;
+  for(let i=1;i<size;i++) {
+    let leftMax = input[i],
+    for(let j = 0;j<i;j++) {
+      leftMax = leftMax > input[j] ? leftMax : input[j]
+    }
+    let rightMax = input[i],
+    for(let j=i+1;j<size;j++) {
+      rightMax = rightMax > input[j] ? rightMax : input[j];
+    }
+    const min = rightMax > leftMax ? leftMax : rightMax;
+    water = water + min-input[i];
+  }
+  console.log(water);
 }
