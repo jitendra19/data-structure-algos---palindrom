@@ -24,7 +24,8 @@ import maximizeprofiteOfStocks from './21.maximizeprofiteOfStocks';
 import leadersInArray from './22.leadersInArray';
 import frequencyinSortedArray, {
   maximumDifference,
-  trappingRainWater
+  trappingRainWater,
+  trappingRainWater1
 } from './23.arrayProblems';
 
 // palin(123);
@@ -59,6 +60,7 @@ runBeautification();
 // frequencyinSortedArray([1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5]);
 // maximumDifference([2, 3, 10, 6, 4, 8, 1]);
 trappingRainWater([2, 3, 10, 6, 4, 8, 1]);
+trappingRainWater1([2, 0, 3, 1, 5, 0, 3, 0, 4, 0, 3]);
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;

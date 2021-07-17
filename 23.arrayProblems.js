@@ -28,8 +28,7 @@ export function maximumDifference(input) {
   // return ret;
 }
 // 25
-export function trappingRainWater(input) {
-  input = [2,0,3,1,5,0,3,0,4,0,3];
+export function trappingRainWater(input) {  
   const size = input.length;
   // let leftMax = input[1],
     // right = size-1,
@@ -45,6 +44,26 @@ export function trappingRainWater(input) {
     }
     const min = rightMax > leftMax ? leftMax : rightMax;
     water = water + min-input[i];
+  }
+  console.log(water);
+}
+// 26 efficientMethod
+export function trappingRainWater1(input) {  
+  const size = input.length;
+  let water = 0;
+  let leftMax = [input[0]];
+  let rightMax = [];
+  rightMax[size-1] = input[size-1];
+
+  for(let i = 0; i<size;i++) {
+    leftMax[i] = leftMax[i-1] > input[i] ? leftMax[i-1] : input[i]
+  }
+  for(let i = size-2; i>0; i--) {
+    rightMax[i] = rightMax[i+1] > input[i] ? rightMax[i+1] : input[i];
+  }
+  for(let i=1;i<size;i++) {    
+    const min = rightMax[i] > leftMax[i] ? leftMax[i] : rightMax[i];
+    water = water + min - input[i];
   }
   console.log(water);
 }
