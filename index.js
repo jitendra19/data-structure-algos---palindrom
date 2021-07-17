@@ -24,6 +24,7 @@ import powerSet from './16.powerSetOfString';
 import groupingSimilarWords from './17.groupingSimilarWords';
 
 import runBeautification from './18.beautifyObject';
+import maximizeprofiteOfStocks from '21.maximizeprofiteOfStocks';
 
 // palin(123);
 
@@ -70,6 +71,8 @@ leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 3);
 groupingSimilarWords();
 
 runBeautification();
+
+maximizeprofiteOfStocks([1, 5, 3, 8, 12]);
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
