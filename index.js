@@ -25,55 +25,37 @@ import groupingSimilarWords from './17.groupingSimilarWords';
 
 import runBeautification from './18.beautifyObject';
 import maximizeprofiteOfStocks from './21.maximizeprofiteOfStocks';
+import leadersInArray from './22.leadersInArray';
 
 // palin(123);
-
 // palin2(12345);
 // palin(123321);
-
 // palin2(123321);
-
 // noOfDigits(12345);
-
 // reverse1(123);
-
 // fact(5);
 // console.log('fact1 - 5', fact1(5));
-
 // console.log(trailingZerosFactorial(261));
-
 // TOH(3, 'A', 'B', 'C');
-
 // largest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
 // secondLargest([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
-
 // isSorted([1, 2, 3, 4, 5]);
 // isSorted([1, 2, 3, 4, 5, 1]);
 // isSorted([1, 2, 2, 3, 4, 5, 5]);
 // isSorted([5, 1, 2, 2, 3, 4, 5, 5]);
-
 // reverse([1, 2, 2, 3, 4, 5, 5]);
 // reverse([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
-
 // removeDuplicates([1, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5]);
-
 // moveZerosToEnd([0, 1, 2, 0, 5, 0, 8, 0]);
-
 // leftRotateArrayByOne([12, 0, 1, 2, 0, 5, 0, 8, 0]);
-
-leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 3);
-
+// leftRotateArrayByD([12, 0, 1, 2, 0, 5, 0, 8, 0], 3);
 // console.log(flattenArray([1, 2, 3, [4, [6, 7, [5, [8, 9]]]]]));
 // console.log(flattenArray([1, 2, 3, [4], 6, 7, 8]));
-
 // console.log(powerSet('abc'));
-
-groupingSimilarWords();
-
+// groupingSimilarWords();
 runBeautification();
-
-maximizeprofiteOfStocks([1, 5, 3, 8, 12]);
-
+// maximizeprofiteOfStocks([1, 5, 3, 8, 12]);
+leadersInArray([1, 5, 3, 8, 12]);
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
