@@ -5,7 +5,7 @@ export default function isSorted(input) {
   }
   let returnValue = true;
   for (let i = 1; i < input.length - 1; i++) {
-    if (input[i] > input[i + 1]) {
+    if (input[i] < input[i - 1]) {
       returnValue = false;
       break;
       // return returnValue;

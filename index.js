@@ -49,6 +49,7 @@ import runBeautification from './18.beautifyObject';
 // isSorted([1, 2, 3, 4, 5]);
 // isSorted([1, 2, 3, 4, 5, 1]);
 // isSorted([1, 2, 2, 3, 4, 5, 5]);
+// isSorted([5, 1, 2, 2, 3, 4, 5, 5]);
 
 // reverse([1, 2, 2, 3, 4, 5, 5]);
 // reverse([1, 5, 3, 87, 3, 75, 9, 23, 1097, 979, 3]);
