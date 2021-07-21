@@ -107,9 +107,9 @@ export default function runBeautification() {
   /* var data = "Heading (info:info) \n info: \n \t and so on "; */
 
   const obj = {
-    a: '1234',
+    a: '12345',
     d: {
-      a: '1234'
+      a: '12345'
     },
     c: [1, 2]
   };
