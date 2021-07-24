@@ -116,3 +116,25 @@ export function maximumConsecutinveSum1(input) {
   }
   console.log(maxSum);
 }
+
+
+// 29 maximum length of even-odd consecutive order
+export function maximumLengthEvenOddOrder(input) {
+  input = [10,12,14,7,8];
+  input = [7,10,13,14];
+  input = [10,12,8,4];
+  let maxlength = 1;  
+  let currentLength = 1; 
+  for(let i = 1; i< input.length ;i++) {
+    if((input[i]%2 === 0  && input[i-1]%2 !== 0) 
+        || (input[i]%2 !== 0  && input[i-1]%2 === 0))  {
+          currentLength++;
+          if(maxlength < currentLength) {
+            maxlength =  currentLength;
+          }
+    } else {
+      currentLength = 1;
+    }
+  }
+  console.log(maxlength);
+}
