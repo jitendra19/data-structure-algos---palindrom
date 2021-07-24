@@ -67,3 +67,39 @@ export function trappingRainWater1(input) {
   }
   console.log(water);
 }
+
+// 27 maximum consecutive 1's in a Array
+export function maximumConsecutinveOnes(input) {
+  input = [1,0,0,1,1,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1];
+  let maxSize = 0;
+  // consecutive = false;
+  let size = 0;
+  for(let i = 0; i< input.length ;i++) {
+    if(input[i] === 1){      
+        size++;
+    } else {
+      size = 0;
+    }    
+    if(maxSize < size) {
+      maxSize =  size;
+    }
+  }
+  console.log(maxSize);
+}
+
+// 27 maximum subArray sum in consecutive order
+export function maximumConsecutinveSum(input) {
+  input = [2,3,-8,7,-1,2,3];
+  let maxSum = input[0];  
+  
+  for(let i = 0; i< input.length ;i++) {
+    let current = 0;
+    for(let j=i;j<input.length;j++) {
+      current = current + input[j];
+      if(current > maxSum) {
+        maxSum =  current;
+      }
+    }    
+  }
+  console.log(maxSum);
+}
