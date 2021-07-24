@@ -27,7 +27,8 @@ import frequencyinSortedArray, {
   trappingRainWater,
   trappingRainWater1,
   maximumConsecutinveOnes,
-  maximumConsecutinveSum
+  maximumConsecutinveSum,
+  maximumConsecutinveSum1
 } from './23.arrayProblems';
 
 // palin(123);
@@ -64,7 +65,8 @@ runBeautification();
 // trappingRainWater([2, 3, 10, 6, 4, 8, 1]);
 // trappingRainWater1([2, 0, 3, 1, 5, 0, 3, 0, 4, 0, 3]);
 // maximumConsecutinveOnes();
-maximumConsecutinveSum();
+// maximumConsecutinveSum();
+maximumConsecutinveSum1();
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;

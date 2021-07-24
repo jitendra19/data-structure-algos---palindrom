@@ -87,7 +87,7 @@ export function maximumConsecutinveOnes(input) {
   console.log(maxSize);
 }
 
-// 27 maximum subArray sum in consecutive order
+// 28 maximum subArray sum in consecutive order
 export function maximumConsecutinveSum(input) {
   input = [2,3,-8,7,-1,2,3];
   let maxSum = input[0];  
@@ -100,6 +100,19 @@ export function maximumConsecutinveSum(input) {
         maxSum =  current;
       }
     }    
+  }
+  console.log(maxSum);
+}
+
+// 28 maximum subArray sum in consecutive order
+export function maximumConsecutinveSum1(input) {
+  input = [2,3,-8,7,-1,2,3];
+  let maxSum = input[0];  
+  let currentSum = input[0]; 
+  for(let i = 1; i< input.length ;i++) {
+    currentSum = (currentSum + input[i]) < input[i] ?  input[i] :
+        currentSum = currentSum + input[i];
+    maxSum =  maxSum > currentSum ? maxSum : currentSum;
   }
   console.log(maxSum);
 }
