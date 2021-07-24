@@ -110,8 +110,10 @@ export function maximumConsecutinveSum1(input) {
   let maxSum = input[0];  
   let currentSum = input[0]; 
   for(let i = 1; i< input.length ;i++) {
-    currentSum = (currentSum + input[i]) < input[i] ?  input[i] :
-        currentSum = currentSum + input[i];
+    currentSum = (currentSum + input[i]) < input[i] 
+                  ? input[i] 
+                  : currentSum = currentSum + input[i];
+
     maxSum =  maxSum > currentSum ? maxSum : currentSum;
   }
   console.log(maxSum);
