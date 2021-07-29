@@ -32,6 +32,8 @@ import frequencyinSortedArray, {
   maximumLengthEvenOddOrder
 } from './23.arrayProblems';
 
+import addOneinLinkList from './link-list-problem';
+
 // palin(123);
 // palin2(12345);
 // palin(123321);
@@ -69,6 +71,7 @@ runBeautification();
 // maximumConsecutinveSum();
 // maximumConsecutinveSum1();
 maximumLengthEvenOddOrder();
+addOneinLinkList();
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
