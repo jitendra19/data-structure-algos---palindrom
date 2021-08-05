@@ -29,10 +29,18 @@ import frequencyinSortedArray, {
   maximumConsecutinveOnes,
   maximumConsecutinveSum,
   maximumConsecutinveSum1,
-  maximumLengthEvenOddOrder
+  maximumLengthEvenOddOrder,
+  catHCF
 } from './23.arrayProblems';
 
 import addOneinLinkList from './link-list-problem';
+
+catHCF(3);
+catHCF(4);
+catHCF(5);
+catHCF(6);
+catHCF(7);
+catHCF(8);
 
 // palin(123);
 // palin2(12345);
@@ -70,8 +78,8 @@ runBeautification();
 // maximumConsecutinveOnes();
 // maximumConsecutinveSum();
 // maximumConsecutinveSum1();
-maximumLengthEvenOddOrder();
-addOneinLinkList();
+// maximumLengthEvenOddOrder();
+// addOneinLinkList();
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;

@@ -140,3 +140,26 @@ export function maximumLengthEvenOddOrder(input) {
   }
   console.log(maxlength);
 }
+
+// 30 write a program on CAT HCF => given a num 3 => output is count 5 
+// 1,0 | 0,1 | 1,1 | 1,2 | 2,1  where HCF === 1 
+export function catHCF(num) {
+  function gcd(a, b) {
+    if(b===0) return a;
+    return gcd(b, a%b);
+  }
+  let count = 0;
+  const pairs = []
+  for(let i =0;i<num;i++) {
+    for(let j =0;j<num;j++) {
+      if(gcd(i,j)===1) {
+        count+=2;
+        pairs.push({i,j});
+        pairs.push({j,i});
+      }
+    }
+  }
+  console.log(count-1);
+  console.log(pairs)
+}
+
