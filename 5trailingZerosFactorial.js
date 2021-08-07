@@ -8,3 +8,5 @@ export default function trailingZerosFactorial(N) {
   return noOfZeros;
 }
 trailingZerosFactorial(11);
+
+// complexity  -> log n - base 5
