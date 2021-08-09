@@ -6,5 +6,12 @@ export default function numberProblems() {
 function primeFactor() {}
 
 function AllDivisors(num) {
-  console.log(num);
+  for (let i = 1; i * i <= num; i++) {
+    if (num % i === 0) {
+      console.log(i);
+    }
+    if (i !== parseInt(num / i) && num % parseInt(num / i) === 0) {
+      console.log(parseInt(num / i));
+    }
+  }
 }
