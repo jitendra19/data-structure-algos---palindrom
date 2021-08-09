@@ -33,13 +33,15 @@ import frequencyinSortedArray, {
   catHCF
 } from './23.arrayProblems';
 
+import numberProblems from './24.number-problems';
+
 import addOneinLinkList from './link-list-problem';
 
-catHCF(3);
-catHCF(4);
-catHCF(5);
-catHCF(6);
-catHCF(7);
+// catHCF(3);
+// catHCF(4);
+// catHCF(5);
+// catHCF(6);
+// catHCF(7);
 catHCF(8);
 
 // palin(123);
@@ -80,6 +82,9 @@ runBeautification();
 // maximumConsecutinveSum1();
 // maximumLengthEvenOddOrder();
 // addOneinLinkList();
+
+numberProblems();
+
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;

@@ -160,6 +160,6 @@ export function catHCF(num) {
     }
   }
   console.log(count-1);
-  console.log(pairs)
+  // console.log(pairs)
 }
 
