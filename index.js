@@ -42,13 +42,13 @@ import addOneinLinkList from './link-list-problem';
 // catHCF(5);
 // catHCF(6);
 // catHCF(7);
-catHCF(8);
+// catHCF(8);
 
 // palin(123);
 // palin2(12345);
 // palin(123321);
 // palin2(123321);
-// noOfDigits(12345);
+noOfDigits(12345);
 // reverse1(123);
 // fact(5);
 // console.log('fact1 - 5', fact1(5));
@@ -70,7 +70,7 @@ catHCF(8);
 // console.log(flattenArray([1, 2, 3, [4], 6, 7, 8]));
 // console.log(powerSet('abc'));
 // groupingSimilarWords();
-runBeautification();
+// runBeautification();
 // maximizeprofiteOfStocks([1, 5, 3, 8, 12]);
 // leadersInArray([9, 5, 3, 8, 4]);
 // frequencyinSortedArray([1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5]);
@@ -83,7 +83,7 @@ runBeautification();
 // maximumLengthEvenOddOrder();
 // addOneinLinkList();
 
-numberProblems();
+// numberProblems();
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
