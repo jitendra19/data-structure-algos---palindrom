@@ -69,6 +69,60 @@ function reverse(nod) {
 // calling reverse method
 reverse(nod);
 
+function reverseBetween1(head, left, right) {
+  // ([1,2,3,4,5], 2, 4)
+  if (left >= right) return head;
+
+  let pos = 1;
+  let current = head;
+  let previous = null;
+  let leftnode, rightnode;
+  // let first;
+
+  while (current.next !== null) {
+    if (left === 1 && pos === left) {
+      leftnode = null;
+      // first = current;
+      // current = current.next;
+    }
+    if (pos < left) {
+      // previous = current;
+      leftnode = current;
+      current = current.next;
+    } else {
+      if (pos === right) {
+        if (leftnode) {
+          rightnode = current.next;
+          current.next = previous;
+          // leftnode.next.next = rightnode
+          leftnode.next = current;
+          while (current.next !== null) {
+            current = current.next;
+          }
+          current.next = rightnode;
+          head = leftnode;
+        } else {
+          rightnode = current.next;
+          current.next = previous;
+          head = current;
+          while (current.next !== null) {
+            current = current.next;
+          }
+          current.next = rightnode;
+        }
+        break;
+      } else {
+        let temp = current.next;
+        current.next = previous;
+        previous = current;
+        current = temp;
+      }
+    }
+    pos++;
+  }
+  printLinklistAsArray(head);
+}
+
 function getDecimalValue(head) {
   let bin = '';
   while (head !== null) {
